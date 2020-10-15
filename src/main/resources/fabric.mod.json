@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lilcreeper",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "lil creeper",
+  "description": "Adds lil creepers to your game, based on Babby Creepers by joserobjr and Sir Tiffy",
   "authors": [
-    "Me!"
+    "creeper123123321"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/creeper123123321/lilcreeper",
+    "sources": "https://github.com/creeper123123321/lilcreeper"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/lilcreeper/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "br.nom.yt.re.lilcreeper.LilCreeperMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lilcreeper.mixins.json"
   ],
 
   "depends": {
@@ -32,6 +32,5 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "flamingo": "*"
   }
 }
